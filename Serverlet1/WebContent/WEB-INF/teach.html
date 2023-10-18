@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+            background-image: url(zhanhui-li-1iuxWsIZ6ko-unsplash.jpg); 
+            background-size: cover;
+    }
+    nav{
+          display: flex;
+          padding: 2% 6%;
+          justify-content: space-between;
+          align-items: center;
+    }
+    .menu
+        {
+            flex: 1;
+            text-align: right;
+        }
+        .menu ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            color: blanchedalmond;
+        }
+        .menu ul li a:hover{
+            color: red;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .dashboard {
+            background-color:rgba(0, 0, 0, 0.5);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 40px;
+            width: 300px;
+            height: 400px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            text-align: justify;
+        }
+
+        .dashboard h1 {
+            text-align: center;
+        }
+
+        .teacher-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .teacher-details label {
+            font-weight: bold;
+            margin-top: -10px;
+            color: #ddd;
+            margin-left: -30px;
+            padding: 20px;
+        }
+
+        .teacher-details p {
+            margin: 0;
+            color: whitesmoke;
+        }
+</style>
+<body>
+    <section class="header">
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="reg3.html">STUDENT</a></li>
+                    <li><a href="">LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="dashboard">
+        <h1>Teacher Dashboard</h1>
+        <div class="teacher-details">
+            <label>Name:</label>
+            <p>John</p>
+            <label>Department:</label>
+            <p>Mathematics</p>
+            <label>Email</label>
+            <p>@gmail</p>
+            <label>Contact:</label>
+            <p>1234</p>
+            <label>Employee ID:</label>
+            <p>12345</p>
+        </div>
+    </div>
+    
+
+</body>
+</html>

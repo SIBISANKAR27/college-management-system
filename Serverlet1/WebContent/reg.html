@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url(360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box
+        {
+            width: 400px;
+            height: 620px;
+            margin: auto;
+            background-color:rgba(0, 0, 0, 0.5);
+            margin-top: 30px;
+            border-radius: 5px;
+            box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+        }
+        form{
+            margin-left: 60px;
+            width: 300px;
+        }
+        form label
+        {
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+            color: azure;
+        }
+        h2{
+         text-align: center;
+         padding-top: 15px;
+         color: beige;
+        }
+        form input
+        {
+            width: 90%;
+            padding: 7px;
+            border: 1px solid grey;
+            border-radius: 9px;
+            background-color:rgba(0, 0, 0, 0.5);
+            color: aliceblue;
+            text-align: center;
+            margin-top: 10px;
+        }
+        input[type="button"]
+        {
+            width: 250px;
+            height: 35px;
+            margin-top: 10px;
+            margin-left: 20px;
+            background-color:rgba(0, 0, 0, 0.5);
+            color: beige;
+            cursor: pointer;
+        }
+        input[type="button"]:hover
+        {
+            background-color:rgba(225, 225, 225, 0.1);
+            color: beige;
+        }
+        ::placeholder
+        {
+            color: aliceblue;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Register Here</h2>
+        <form action="Reg" method="post">
+            <label>First Name</label>
+            <input type="text" name="a" placeholder="Enter First Name">
+            <label>Last Name</label>
+            <input type="text" name="b" placeholder="Enter Last Name">
+            <label>Contact</label>
+            <input type="text" name="c" placeholder="Enter Number">
+            <label>Email</label>
+            <input type="text" name="d" placeholder="Enter Mail Id">
+            <label>Password</label>
+            <input type="password" name="e" placeholder="Enter Password">
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>

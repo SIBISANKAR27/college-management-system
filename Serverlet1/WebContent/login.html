@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url(zhanhui-li-1iuxWsIZ6ko-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box
+        {
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            background-color:rgba(0, 0, 0, 0.5);
+            margin-top: 30px;
+            border-radius: 5px;
+            box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+        }
+        form{
+            margin-left: 60px;
+            width: 300px;
+        }
+        form label
+        {
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+            color: azure;
+        }
+        h2{
+         text-align: center;
+         padding-top: 15px;
+         color: beige;
+        }
+        form input
+        {
+            width: 90%;
+            padding: 7px;
+            border: 1px solid grey;
+            border-radius: 9px;
+            background-color:rgba(0, 0, 0, 0.5);
+            color: aliceblue;
+            text-align: center;
+            margin-top: 10px;
+        }
+        button
+        {
+            width: 150px;
+            height: 35px;
+            margin-top: 10px;
+            margin-left: 60px;
+            background-color:rgba(0, 0, 0, 0.5);
+            color: beige;
+            cursor: pointer;
+        }
+        button:hover
+        {
+            background-color:rgba(225, 225, 225, 0.1);
+            color: beige;
+        }
+        ::placeholder
+        {
+            color: aliceblue;
+            opacity: 0.7;
+        }
+        nav{
+          display: flex;
+          padding: 2% 6%;
+          justify-content: space-between;
+          align-items: center;
+        }
+        nav img{
+            width: 100px;
+            opacity: 0.9;
+            border-radius: 50% 50%;
+        }
+        .menu
+        {
+            flex: 1;
+            text-align: right;
+        }
+        .menu ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            color: blanchedalmond;
+        }
+        .menu ul li a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="images 12.png">
+            <div class="menu">
+                <ul>
+                    <li><a href="site2.html">HOME</a></li>
+                    <li><a href="reg2.html">TEACHER</a></li>
+                    <li><a href="reg3.html">STUDENT</a></li>
+                    <li><a href="reg1.html">LOGIN</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="box">
+        <h2>Login</h2>
+        <form action="logg" method="post">
+            <label> UserName</label>
+            <input type="text" name="a" placeholder="username">
+            <label>Password</label>
+            <input type="password" name="b" placeholder="Enter Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
